@@ -1,0 +1,20 @@
+<h1 class= "bg-primary">User List</h1>
+<table class="table table-bordered table-stripped">
+    <thaed>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>email</th>
+            <th>phoneno</th>
+            <th>address</th>
+            <th>password</th>
+        </tr>
+    </thaed>
+    <tbody>
+        <tr *ngFor="let u of users">
+            <td>{{u.id}}</td>
+            <td>{{u.Name}}</td>
+            <td>{{u.email}}</td>
+            <td>{{u.phoneno}}</td>
+            <td>{{u.address}}</td>
+            <td>{{u.password}}</td>
